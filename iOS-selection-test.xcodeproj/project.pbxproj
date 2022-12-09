@@ -95,8 +95,9 @@
 			isa = PBXGroup;
 			children = (
 				786FD4AE294333AA002527B6 /* iOS_selection_testApp.swift */,
-				786FD4B0294333AA002527B6 /* ContentView.swift */,
-				786FD4B2294333AB002527B6 /* Assets.xcassets */,
+				786FD4D829433729002527B6 /* Data */,
+				786FD4DA2943374E002527B6 /* UI */,
+				786FD4DB2943376B002527B6 /* Resources */,
 				786FD4B4294333AB002527B6 /* Preview Content */,
 			);
 			path = "iOS-selection-test";
@@ -125,6 +126,37 @@
 				786FD4CB294333AB002527B6 /* iOS_selection_testUITestsLaunchTests.swift */,
 			);
 			path = "iOS-selection-testUITests";
+			sourceTree = "<group>";
+		};
+		786FD4D829433729002527B6 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				786FD4D929433734002527B6 /* API */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		786FD4D929433734002527B6 /* API */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		786FD4DA2943374E002527B6 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				786FD4B0294333AA002527B6 /* ContentView.swift */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		786FD4DB2943376B002527B6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				786FD4B2294333AB002527B6 /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
