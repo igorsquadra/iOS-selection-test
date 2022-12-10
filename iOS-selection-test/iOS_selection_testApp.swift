@@ -9,9 +9,15 @@ import SwiftUI
 
 @main
 struct iOS_selection_testApp: App {
+    private let dataSource = RemoteDataSourceImpl()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            AccountsView(
+                viewModel: AccountsViewVM(
+                    interactor: InteractorImpl(dataSource: dataSource)
+                )
+            )
         }
     }
 }
