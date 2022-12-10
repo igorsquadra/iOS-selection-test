@@ -8,12 +8,38 @@
 
 /* Begin PBXBuildFile section */
 		786FD4AF294333AA002527B6 /* iOS_selection_testApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786FD4AE294333AA002527B6 /* iOS_selection_testApp.swift */; };
-		786FD4B1294333AA002527B6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786FD4B0294333AA002527B6 /* ContentView.swift */; };
+		786FD4B1294333AA002527B6 /* AccountsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786FD4B0294333AA002527B6 /* AccountsView.swift */; };
 		786FD4B3294333AB002527B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 786FD4B2294333AB002527B6 /* Assets.xcassets */; };
 		786FD4B6294333AB002527B6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 786FD4B5294333AB002527B6 /* Preview Assets.xcassets */; };
 		786FD4C0294333AB002527B6 /* iOS_selection_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786FD4BF294333AB002527B6 /* iOS_selection_testTests.swift */; };
 		786FD4CA294333AB002527B6 /* iOS_selection_testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786FD4C9294333AB002527B6 /* iOS_selection_testUITests.swift */; };
 		786FD4CC294333AB002527B6 /* iOS_selection_testUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786FD4CB294333AB002527B6 /* iOS_selection_testUITestsLaunchTests.swift */; };
+		786FD4E829433ADD002527B6 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786FD4E729433ADD002527B6 /* Config.swift */; };
+		786FD4E929433F84002527B6 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786FD4DE29433959002527B6 /* WebService.swift */; };
+		786FD4EA29433F8A002527B6 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786FD4DC29433959002527B6 /* Router.swift */; };
+		786FD4EB29433F8C002527B6 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786FD4DD29433959002527B6 /* API.swift */; };
+		786FD4EC29433F8F002527B6 /* NetworkErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786FD4E029433983002527B6 /* NetworkErrors.swift */; };
+		786FD4ED29433F8F002527B6 /* DataResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786FD4E329433983002527B6 /* DataResponse.swift */; };
+		786FD4EE29433F8F002527B6 /* HTTPMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786FD4E429433983002527B6 /* HTTPMethods.swift */; };
+		786FD4F029433FDE002527B6 /* AccessResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786FD4EF29433FDE002527B6 /* AccessResponse.swift */; };
+		786FD4F229434045002527B6 /* ConfigResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786FD4F129434045002527B6 /* ConfigResponse.swift */; };
+		786FD4F429434124002527B6 /* AccountResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786FD4F329434124002527B6 /* AccountResponse.swift */; };
+		786FD4F629434200002527B6 /* AccountsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786FD4F529434200002527B6 /* AccountsResponse.swift */; };
+		786FD4F92943424A002527B6 /* RemoteDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786FD4F82943424A002527B6 /* RemoteDataSource.swift */; };
+		786FD4FB29434353002527B6 /* RemoteDataSourceImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786FD4FA29434353002527B6 /* RemoteDataSourceImpl.swift */; };
+		786FD50029434448002527B6 /* Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786FD4FF29434448002527B6 /* Interactor.swift */; };
+		786FD50229434463002527B6 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786FD50129434463002527B6 /* Account.swift */; };
+		786FD504294344DE002527B6 /* PaymentType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786FD503294344DE002527B6 /* PaymentType.swift */; };
+		786FD5062943454C002527B6 /* Access.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786FD5052943454C002527B6 /* Access.swift */; };
+		786FD508294345CC002527B6 /* InteractorImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786FD507294345CC002527B6 /* InteractorImpl.swift */; };
+		786FD50A29434F06002527B6 /* AccountsViewVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786FD50929434F06002527B6 /* AccountsViewVM.swift */; };
+		786FD50D2943AEA4002527B6 /* AccountResponse+PaymentTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786FD50C2943AEA4002527B6 /* AccountResponse+PaymentTypes.swift */; };
+		786FD5112943B158002527B6 /* Status.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786FD5102943B158002527B6 /* Status.swift */; };
+		786FD5142944B4D2002527B6 /* PaymentButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786FD5132944B4D2002527B6 /* PaymentButtonView.swift */; };
+		786FD5162944B65A002527B6 /* Color+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786FD5152944B65A002527B6 /* Color+Hex.swift */; };
+		786FD51B2944BE8E002527B6 /* AmountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786FD51A2944BE8E002527B6 /* AmountView.swift */; };
+		786FD51D2944C35D002527B6 /* RetryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786FD51C2944C35D002527B6 /* RetryView.swift */; };
+		786FD51F2944C67A002527B6 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786FD51E2944C67A002527B6 /* LoadingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +62,7 @@
 /* Begin PBXFileReference section */
 		786FD4AB294333AA002527B6 /* iOS-selection-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-selection-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		786FD4AE294333AA002527B6 /* iOS_selection_testApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_selection_testApp.swift; sourceTree = "<group>"; };
-		786FD4B0294333AA002527B6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		786FD4B0294333AA002527B6 /* AccountsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountsView.swift; sourceTree = "<group>"; };
 		786FD4B2294333AB002527B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		786FD4B5294333AB002527B6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		786FD4BB294333AB002527B6 /* iOS-selection-testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-selection-testTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +70,32 @@
 		786FD4C5294333AB002527B6 /* iOS-selection-testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-selection-testUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		786FD4C9294333AB002527B6 /* iOS_selection_testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_selection_testUITests.swift; sourceTree = "<group>"; };
 		786FD4CB294333AB002527B6 /* iOS_selection_testUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_selection_testUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		786FD4DC29433959002527B6 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		786FD4DD29433959002527B6 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		786FD4DE29433959002527B6 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		786FD4E029433983002527B6 /* NetworkErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkErrors.swift; sourceTree = "<group>"; };
+		786FD4E329433983002527B6 /* DataResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataResponse.swift; sourceTree = "<group>"; };
+		786FD4E429433983002527B6 /* HTTPMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethods.swift; sourceTree = "<group>"; };
+		786FD4E729433ADD002527B6 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		786FD4EF29433FDE002527B6 /* AccessResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessResponse.swift; sourceTree = "<group>"; };
+		786FD4F129434045002527B6 /* ConfigResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigResponse.swift; sourceTree = "<group>"; };
+		786FD4F329434124002527B6 /* AccountResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountResponse.swift; sourceTree = "<group>"; };
+		786FD4F529434200002527B6 /* AccountsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountsResponse.swift; sourceTree = "<group>"; };
+		786FD4F82943424A002527B6 /* RemoteDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteDataSource.swift; sourceTree = "<group>"; };
+		786FD4FA29434353002527B6 /* RemoteDataSourceImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteDataSourceImpl.swift; sourceTree = "<group>"; };
+		786FD4FF29434448002527B6 /* Interactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interactor.swift; sourceTree = "<group>"; };
+		786FD50129434463002527B6 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		786FD503294344DE002527B6 /* PaymentType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentType.swift; sourceTree = "<group>"; };
+		786FD5052943454C002527B6 /* Access.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Access.swift; sourceTree = "<group>"; };
+		786FD507294345CC002527B6 /* InteractorImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractorImpl.swift; sourceTree = "<group>"; };
+		786FD50929434F06002527B6 /* AccountsViewVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountsViewVM.swift; sourceTree = "<group>"; };
+		786FD50C2943AEA4002527B6 /* AccountResponse+PaymentTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AccountResponse+PaymentTypes.swift"; sourceTree = "<group>"; };
+		786FD5102943B158002527B6 /* Status.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Status.swift; sourceTree = "<group>"; };
+		786FD5132944B4D2002527B6 /* PaymentButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentButtonView.swift; sourceTree = "<group>"; };
+		786FD5152944B65A002527B6 /* Color+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Hex.swift"; sourceTree = "<group>"; };
+		786FD51A2944BE8E002527B6 /* AmountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmountView.swift; sourceTree = "<group>"; };
+		786FD51C2944C35D002527B6 /* RetryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetryView.swift; sourceTree = "<group>"; };
+		786FD51E2944C67A002527B6 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +148,7 @@
 			children = (
 				786FD4AE294333AA002527B6 /* iOS_selection_testApp.swift */,
 				786FD4D829433729002527B6 /* Data */,
+				786FD4FC294343F5002527B6 /* Domain */,
 				786FD4DA2943374E002527B6 /* UI */,
 				786FD4DB2943376B002527B6 /* Resources */,
 				786FD4B4294333AB002527B6 /* Preview Content */,
@@ -131,6 +184,8 @@
 		786FD4D829433729002527B6 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				786FD4F72943423D002527B6 /* DataSource */,
+				786FD4E629433A97002527B6 /* Models */,
 				786FD4D929433734002527B6 /* API */,
 			);
 			path = Data;
@@ -139,6 +194,10 @@
 		786FD4D929433734002527B6 /* API */ = {
 			isa = PBXGroup;
 			children = (
+				786FD4DF29433983002527B6 /* Utility */,
+				786FD4DD29433959002527B6 /* API.swift */,
+				786FD4DC29433959002527B6 /* Router.swift */,
+				786FD4DE29433959002527B6 /* WebService.swift */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -146,7 +205,10 @@
 		786FD4DA2943374E002527B6 /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				786FD4B0294333AA002527B6 /* ContentView.swift */,
+				786FD5172944B66D002527B6 /* Extensions */,
+				786FD5122944B493002527B6 /* Components */,
+				786FD50F2943B12D002527B6 /* Models */,
+				786FD50E2943B11F002527B6 /* AccountsView */,
 			);
 			name = UI;
 			sourceTree = "<group>";
@@ -155,8 +217,112 @@
 			isa = PBXGroup;
 			children = (
 				786FD4B2294333AB002527B6 /* Assets.xcassets */,
+				786FD4E729433ADD002527B6 /* Config.swift */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		786FD4DF29433983002527B6 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				786FD4E029433983002527B6 /* NetworkErrors.swift */,
+				786FD4E329433983002527B6 /* DataResponse.swift */,
+				786FD4E429433983002527B6 /* HTTPMethods.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		786FD4E629433A97002527B6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				786FD4EF29433FDE002527B6 /* AccessResponse.swift */,
+				786FD4F129434045002527B6 /* ConfigResponse.swift */,
+				786FD4F529434200002527B6 /* AccountsResponse.swift */,
+				786FD4F329434124002527B6 /* AccountResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		786FD4F72943423D002527B6 /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				786FD4F82943424A002527B6 /* RemoteDataSource.swift */,
+				786FD4FA29434353002527B6 /* RemoteDataSourceImpl.swift */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		786FD4FC294343F5002527B6 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				786FD50B2943AE8F002527B6 /* Extensions */,
+				786FD4FE2943442E002527B6 /* Interactor */,
+				786FD4FD29434402002527B6 /* Models */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		786FD4FD29434402002527B6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				786FD5052943454C002527B6 /* Access.swift */,
+				786FD50129434463002527B6 /* Account.swift */,
+				786FD503294344DE002527B6 /* PaymentType.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		786FD4FE2943442E002527B6 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				786FD4FF29434448002527B6 /* Interactor.swift */,
+				786FD507294345CC002527B6 /* InteractorImpl.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		786FD50B2943AE8F002527B6 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				786FD50C2943AEA4002527B6 /* AccountResponse+PaymentTypes.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		786FD50E2943B11F002527B6 /* AccountsView */ = {
+			isa = PBXGroup;
+			children = (
+				786FD4B0294333AA002527B6 /* AccountsView.swift */,
+				786FD50929434F06002527B6 /* AccountsViewVM.swift */,
+			);
+			name = AccountsView;
+			sourceTree = "<group>";
+		};
+		786FD50F2943B12D002527B6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				786FD5102943B158002527B6 /* Status.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		786FD5122944B493002527B6 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				786FD5132944B4D2002527B6 /* PaymentButtonView.swift */,
+				786FD51A2944BE8E002527B6 /* AmountView.swift */,
+				786FD51C2944C35D002527B6 /* RetryView.swift */,
+				786FD51E2944C67A002527B6 /* LoadingView.swift */,
+			);
+			name = Components;
+			sourceTree = "<group>";
+		};
+		786FD5172944B66D002527B6 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				786FD5152944B65A002527B6 /* Color+Hex.swift */,
+			);
+			name = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -289,8 +455,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				786FD4B1294333AA002527B6 /* ContentView.swift in Sources */,
+				786FD4B1294333AA002527B6 /* AccountsView.swift in Sources */,
+				786FD50D2943AEA4002527B6 /* AccountResponse+PaymentTypes.swift in Sources */,
 				786FD4AF294333AA002527B6 /* iOS_selection_testApp.swift in Sources */,
+				786FD4F629434200002527B6 /* AccountsResponse.swift in Sources */,
+				786FD4F029433FDE002527B6 /* AccessResponse.swift in Sources */,
+				786FD51F2944C67A002527B6 /* LoadingView.swift in Sources */,
+				786FD5162944B65A002527B6 /* Color+Hex.swift in Sources */,
+				786FD504294344DE002527B6 /* PaymentType.swift in Sources */,
+				786FD5062943454C002527B6 /* Access.swift in Sources */,
+				786FD5142944B4D2002527B6 /* PaymentButtonView.swift in Sources */,
+				786FD4EA29433F8A002527B6 /* Router.swift in Sources */,
+				786FD4FB29434353002527B6 /* RemoteDataSourceImpl.swift in Sources */,
+				786FD50029434448002527B6 /* Interactor.swift in Sources */,
+				786FD4EC29433F8F002527B6 /* NetworkErrors.swift in Sources */,
+				786FD4F429434124002527B6 /* AccountResponse.swift in Sources */,
+				786FD4E929433F84002527B6 /* WebService.swift in Sources */,
+				786FD4F92943424A002527B6 /* RemoteDataSource.swift in Sources */,
+				786FD50229434463002527B6 /* Account.swift in Sources */,
+				786FD4EE29433F8F002527B6 /* HTTPMethods.swift in Sources */,
+				786FD51B2944BE8E002527B6 /* AmountView.swift in Sources */,
+				786FD4F229434045002527B6 /* ConfigResponse.swift in Sources */,
+				786FD5112943B158002527B6 /* Status.swift in Sources */,
+				786FD51D2944C35D002527B6 /* RetryView.swift in Sources */,
+				786FD50A29434F06002527B6 /* AccountsViewVM.swift in Sources */,
+				786FD508294345CC002527B6 /* InteractorImpl.swift in Sources */,
+				786FD4EB29433F8C002527B6 /* API.swift in Sources */,
+				786FD4ED29433F8F002527B6 /* DataResponse.swift in Sources */,
+				786FD4E829433ADD002527B6 /* Config.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
